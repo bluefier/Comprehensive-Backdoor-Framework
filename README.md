@@ -1,6 +1,6 @@
 ## Comprehensive Backdoor Framwork
 This data poisoning-based backdoor attack framework target Spiking Neural Networks (SNNs), which covers three popular types of supervised learning rules (backporpagation-based, conversion-based, and hybrid learning methods), and two types of datasets (traditional image and neuromorphic datasets).
-![](comprehensive backdoor framework.png)
+![image](https://github.com/bluefier/Comprehensive-Backdoor-Framework/blob/main/comprehensive%20backdoor%20framework.png)
 
 * Step 1: **Data Poisoining**. Embed trigger patterns into clean data samples to construct poisoned data samples. Note that the samples in the datasets for SNN training is differ from that for ANNs, since they have an additional attribute, timestep.
 * Step 2:**Backdoor Injection**. Training of models using malicious datasets containing poisoned data samples. Different learning rules have different training process.
