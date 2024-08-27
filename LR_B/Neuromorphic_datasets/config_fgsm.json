@@ -1,0 +1,4 @@
+[
+    {"attack": "fgsm", "eps": 2.55, "bb": false, "attack_mode": "bptt"},
+    {"attack": "fgsm", "eps": 2.55, "bb": false, "attack_mode": "bptr"}
+]
